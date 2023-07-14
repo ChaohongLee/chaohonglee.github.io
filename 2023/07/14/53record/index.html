@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+
+  <!--pjax：防止跳转页面音乐暂停-->
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
+
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
@@ -22,7 +26,7 @@
 
     <meta name="description" content="我的照片集这是我的照片集，记录了一些我喜欢的时刻和美好的回忆。让我们一起来欣赏这些照片吧！ 照片1：漂亮乖乖的自拍 这是我漂亮的乖乖在二餐的自拍，我们买了好喝的奶茶。 照片2：乖乖在植物园 这是我植物园给乖乖拍摄的花园照片。 照片3：乖乖在大草坪 这张照片是我在大草坪给乖乖拍摄的照片，草坪上有很多人在玩耍。 照片4：乖乖在蔷薇园 在蔷薇园给乖乖拍下的照片哦。 照片5：乖乖与凯旋门 我的乖乖与凯旋门">
 <meta property="og:type" content="article">
-<meta property="og:title" content="记录5.3交大之行">
+<meta property="og:title" content="乖乖的第一篇博客">
 <meta property="og:url" content="https://chaohonglee.github.io/2023/07/14/53record/index.html">
 <meta property="og:site_name" content="云边的小家">
 <meta property="og:description" content="我的照片集这是我的照片集，记录了一些我喜欢的时刻和美好的回忆。让我们一起来欣赏这些照片吧！ 照片1：漂亮乖乖的自拍 这是我漂亮的乖乖在二餐的自拍，我们买了好喝的奶茶。 照片2：乖乖在植物园 这是我植物园给乖乖拍摄的花园照片。 照片3：乖乖在大草坪 这张照片是我在大草坪给乖乖拍摄的照片，草坪上有很多人在玩耍。 照片4：乖乖在蔷薇园 在蔷薇园给乖乖拍下的照片哦。 照片5：乖乖与凯旋门 我的乖乖与凯旋门">
@@ -30,10 +34,17 @@
 <meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p5.jpg">
 <meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p4.jpg">
 <meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p3.jpg">
-<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p1.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p10.jpg">
 <meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p2.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p6.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p7.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p9.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p11.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p12.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p13.jpg">
+<meta property="og:image" content="https://chaohonglee.github.io/2023/07/14/53record/p14.jpg">
 <meta property="article:published_time" content="2023-07-14T08:30:23.000Z">
-<meta property="article:modified_time" content="2023-07-14T09:59:47.936Z">
+<meta property="article:modified_time" content="2023-07-14T16:02:37.517Z">
 <meta property="article:author" content="baby">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://chaohonglee.github.io/2023/07/14/53record/p5.jpg">
@@ -43,10 +54,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://chaohonglee.github.io/2023/07/14/53record/","path":"2023/07/14/53record/","title":"记录5.3交大之行"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://chaohonglee.github.io/2023/07/14/53record/","path":"2023/07/14/53record/","title":"乖乖的第一篇博客"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>记录5.3交大之行 | 云边的小家</title>
+<title>乖乖的第一篇博客 | 云边的小家</title>
   
 
 
@@ -94,7 +105,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
   </ul>
 </nav>
 
@@ -123,7 +134,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E7%85%A7%E7%89%87%E9%9B%86"><span class="nav-number">1.</span> <span class="nav-text">我的照片集</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%871%EF%BC%9A%E6%BC%82%E4%BA%AE%E4%B9%96%E4%B9%96%E7%9A%84%E8%87%AA%E6%8B%8D"><span class="nav-number">1.1.</span> <span class="nav-text">照片1：漂亮乖乖的自拍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%872%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E6%A4%8D%E7%89%A9%E5%9B%AD"><span class="nav-number">1.2.</span> <span class="nav-text">照片2：乖乖在植物园</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%873%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E5%A4%A7%E8%8D%89%E5%9D%AA"><span class="nav-number">1.3.</span> <span class="nav-text">照片3：乖乖在大草坪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%874%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E8%94%B7%E8%96%87%E5%9B%AD"><span class="nav-number">1.4.</span> <span class="nav-text">照片4：乖乖在蔷薇园</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%875%EF%BC%9A%E4%B9%96%E4%B9%96%E4%B8%8E%E5%87%AF%E6%97%8B%E9%97%A8"><span class="nav-number">1.5.</span> <span class="nav-text">照片5：乖乖与凯旋门</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%91%E7%9A%84%E7%85%A7%E7%89%87%E9%9B%86"><span class="nav-number">1.</span> <span class="nav-text">我的照片集</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%871%EF%BC%9A%E6%BC%82%E4%BA%AE%E4%B9%96%E4%B9%96%E7%9A%84%E8%87%AA%E6%8B%8D"><span class="nav-number">1.1.</span> <span class="nav-text">照片1：漂亮乖乖的自拍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%872%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E6%A4%8D%E7%89%A9%E5%9B%AD"><span class="nav-number">1.2.</span> <span class="nav-text">照片2：乖乖在植物园</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%873%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E5%A4%A7%E8%8D%89%E5%9D%AA"><span class="nav-number">1.3.</span> <span class="nav-text">照片3：乖乖在大草坪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%874%EF%BC%9A%E4%B9%96%E4%B9%96%E5%9C%A8%E8%94%B7%E8%96%87%E5%9B%AD"><span class="nav-number">1.4.</span> <span class="nav-text">照片4：乖乖在蔷薇园</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%875%EF%BC%9A%E4%B9%96%E4%B9%96%E4%B8%8E%E5%87%AF%E6%97%8B%E9%97%A8"><span class="nav-number">1.5.</span> <span class="nav-text">照片5：乖乖与凯旋门</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%875%EF%BC%9A%E6%88%91%E4%BB%AC%E7%9A%84%E5%AE%9A%E6%83%85%E4%BF%A1%E7%89%A9%E2%80%93%E6%A0%BC%E5%AD%90%E8%A1%AC%E8%A1%AB"><span class="nav-number">1.6.</span> <span class="nav-text">照片5：我们的定情信物–格子衬衫</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%877%EF%BC%9A%E8%B7%9F%E6%88%91%E7%9A%84%E7%BE%8A%E6%AF%9B%E5%8D%B7%E8%AF%B4%E5%86%8D%E8%A7%81%E5%92%AF"><span class="nav-number">1.7.</span> <span class="nav-text">照片7：跟我的羊毛卷说再见咯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%878%EF%BC%9A%E8%AE%B0%E5%BD%95%E6%88%91%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E5%BC%A0%E6%97%85%E8%A1%8C%E5%90%88%E7%85%A7"><span class="nav-number">1.8.</span> <span class="nav-text">照片8：记录我们的第一张旅行合照</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%879%EF%BC%9A%E6%BC%82%E4%BA%AE%E7%9A%84%E4%B9%96%E4%B9%96%E5%9C%A8%E8%8D%89%E5%9D%AA"><span class="nav-number">1.9.</span> <span class="nav-text">照片9：漂亮的乖乖在草坪</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%8710%EF%BC%9A%E8%B7%9F%E4%B9%96%E4%B9%96%E5%9C%A8%E8%8A%B1%E5%9D%9B%E5%90%88%E7%85%A7%E7%9A%84%E6%AD%BB%E4%BA%A1%E7%9C%BC%E7%A5%9E%E5%95%8A%E5%95%8A"><span class="nav-number">1.10.</span> <span class="nav-text">照片10：跟乖乖在花坛合照的死亡眼神啊啊</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%8711%EF%BC%9A%E5%A5%BD%E5%A5%BD%E5%90%83%E9%A5%AD%E7%9A%84%E4%B9%96%E4%B9%96"><span class="nav-number">1.11.</span> <span class="nav-text">照片11：好好吃饭的乖乖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%85%A7%E7%89%8712%EF%BC%9A%E6%89%93%E5%8D%A1%E5%A4%A9%E6%B4%A5"><span class="nav-number">1.12.</span> <span class="nav-text">照片12：打卡天津</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -177,12 +188,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="记录5.3交大之行 | 云边的小家">
+      <meta itemprop="name" content="乖乖的第一篇博客 | 云边的小家">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          记录5.3交大之行
+          乖乖的第一篇博客
         </h1>
 
         <div class="post-meta-container">
@@ -192,9 +203,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-07-14 16:30:23 / 修改时间：17:59:47" itemprop="dateCreated datePublished" datetime="2023-07-14T16:30:23+08:00">2023-07-14</time>
+      <time title="创建时间：2023-07-14 16:30:23" itemprop="dateCreated datePublished" datetime="2023-07-14T16:30:23+08:00">2023-07-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-07-15 00:02:37" itemprop="dateModified" datetime="2023-07-15T00:02:37+08:00">2023-07-15</time>
     </span>
 
   
@@ -213,10 +230,24 @@
 <p>这是我植物园给乖乖拍摄的花园照片。</p>
 <h2 id="照片3：乖乖在大草坪"><a href="#照片3：乖乖在大草坪" class="headerlink" title="照片3：乖乖在大草坪"></a>照片3：乖乖在大草坪</h2><p><img src="/2023/07/14/53record/p3.jpg" alt="乖乖与大草坪"></p>
 <p>这张照片是我在大草坪给乖乖拍摄的照片，草坪上有很多人在玩耍。</p>
-<h2 id="照片4：乖乖在蔷薇园"><a href="#照片4：乖乖在蔷薇园" class="headerlink" title="照片4：乖乖在蔷薇园"></a>照片4：乖乖在蔷薇园</h2><p><img src="/2023/07/14/53record/p1.jpg" alt="乖乖在蔷薇园"></p>
+<h2 id="照片4：乖乖在蔷薇园"><a href="#照片4：乖乖在蔷薇园" class="headerlink" title="照片4：乖乖在蔷薇园"></a>照片4：乖乖在蔷薇园</h2><p><img src="/2023/07/14/53record/p10.jpg" alt="乖乖在蔷薇园"></p>
 <p>在蔷薇园给乖乖拍下的照片哦。</p>
 <h2 id="照片5：乖乖与凯旋门"><a href="#照片5：乖乖与凯旋门" class="headerlink" title="照片5：乖乖与凯旋门"></a>照片5：乖乖与凯旋门</h2><p><img src="/2023/07/14/53record/p2.jpg" alt="乖乖与凯旋门"></p>
 <p>我的乖乖与凯旋门的合影。</p>
+<h2 id="照片5：我们的定情信物–格子衬衫"><a href="#照片5：我们的定情信物–格子衬衫" class="headerlink" title="照片5：我们的定情信物–格子衬衫"></a>照片5：我们的定情信物–格子衬衫</h2><p><img src="/2023/07/14/53record/p6.jpg" alt="我们的定情信物--格子衬衫"></p>
+<p>乖乖穿着我们的定情信物摆拍ing</p>
+<h2 id="照片7：跟我的羊毛卷说再见咯"><a href="#照片7：跟我的羊毛卷说再见咯" class="headerlink" title="照片7：跟我的羊毛卷说再见咯"></a>照片7：跟我的羊毛卷说再见咯</h2><p><img src="/2023/07/14/53record/p7.jpg" alt="跟我的羊毛卷说再见咯"></p>
+<p>乖乖最后的羊毛卷照片嘿嘿</p>
+<h2 id="照片8：记录我们的第一张旅行合照"><a href="#照片8：记录我们的第一张旅行合照" class="headerlink" title="照片8：记录我们的第一张旅行合照"></a>照片8：记录我们的第一张旅行合照</h2><p><img src="/2023/07/14/53record/p9.jpg" alt="记录我们的第一张旅行合照"></p>
+<p>我跟乖乖在外滩的合照</p>
+<h2 id="照片9：漂亮的乖乖在草坪"><a href="#照片9：漂亮的乖乖在草坪" class="headerlink" title="照片9：漂亮的乖乖在草坪"></a>照片9：漂亮的乖乖在草坪</h2><p><img src="/2023/07/14/53record/p11.jpg" alt="漂亮的乖乖在草坪"></p>
+<p>我的乖乖在草坪被俺拍下的大头照</p>
+<h2 id="照片10：跟乖乖在花坛合照的死亡眼神啊啊"><a href="#照片10：跟乖乖在花坛合照的死亡眼神啊啊" class="headerlink" title="照片10：跟乖乖在花坛合照的死亡眼神啊啊"></a>照片10：跟乖乖在花坛合照的死亡眼神啊啊</h2><p><img src="/2023/07/14/53record/p12.jpg" alt="跟乖乖在花坛合照的死亡眼神啊啊"></p>
+<p>不要看我眼睛！</p>
+<h2 id="照片11：好好吃饭的乖乖"><a href="#照片11：好好吃饭的乖乖" class="headerlink" title="照片11：好好吃饭的乖乖"></a>照片11：好好吃饭的乖乖</h2><p><img src="/2023/07/14/53record/p13.jpg" alt="记录我们的第一张旅行合照"></p>
+<p>我的乖乖可听话啦。</p>
+<h2 id="照片12：打卡天津"><a href="#照片12：打卡天津" class="headerlink" title="照片12：打卡天津"></a>照片12：打卡天津</h2><p><img src="/2023/07/14/53record/p14.jpg" alt="打卡天津"></p>
+<p>我的乖乖解锁天津！</p>
 <p>希望你喜欢这些照片！不喜欢也没关系，我喜欢。</p>
 
     </div>
@@ -271,7 +302,8 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   
 
